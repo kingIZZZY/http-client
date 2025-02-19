@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SwooleTW\Hyperf\HttpClient;
+namespace LaravelHyperf\HttpClient;
 
 use Closure;
 use Exception;
@@ -24,14 +24,14 @@ use Hyperf\Macroable\Macroable;
 use Hyperf\Stringable\Str;
 use Hyperf\Stringable\Stringable;
 use JsonSerializable;
+use LaravelHyperf\HttpClient\Events\ConnectionFailed;
+use LaravelHyperf\HttpClient\Events\RequestSending;
+use LaravelHyperf\HttpClient\Events\ResponseReceived;
 use OutOfBoundsException;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 use RuntimeException;
-use SwooleTW\Hyperf\HttpClient\Events\ConnectionFailed;
-use SwooleTW\Hyperf\HttpClient\Events\RequestSending;
-use SwooleTW\Hyperf\HttpClient\Events\ResponseReceived;
 use Symfony\Component\VarDumper\VarDumper;
 use Throwable;
 

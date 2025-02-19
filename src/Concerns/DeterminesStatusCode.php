@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SwooleTW\Hyperf\HttpClient\Concerns;
+namespace LaravelHyperf\HttpClient\Concerns;
 
 trait DeterminesStatusCode
 {

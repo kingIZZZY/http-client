@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SwooleTW\Hyperf\HttpClient;
+namespace LaravelHyperf\HttpClient;
 
 use GuzzleHttp\Promise\Promise;
 use GuzzleHttp\Utils;

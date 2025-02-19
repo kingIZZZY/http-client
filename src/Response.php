@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SwooleTW\Hyperf\HttpClient;
+namespace LaravelHyperf\HttpClient;
 
 use ArrayAccess;
 use Closure;
@@ -13,11 +13,11 @@ use Hyperf\Collection\Collection;
 use Hyperf\Macroable\Macroable;
 use Hyperf\Support\Fluent;
 use InvalidArgumentException;
+use LaravelHyperf\HttpClient\Concerns\DeterminesStatusCode;
 use LogicException;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;
 use Stringable;
-use SwooleTW\Hyperf\HttpClient\Concerns\DeterminesStatusCode;
 
 /**
  * @mixin ResponseInterface

@@ -1,5 +1,5 @@
 {
-    "name": "swooletw/hyperf-http-client",
+    "name": "laravel-hyperf/http-client",
     "type": "library",
     "description": "The http client package for Laravel Hyperf.",
     "license": "MIT",
@@ -13,17 +13,16 @@
     "authors": [
         {
             "name": "Albert Chen",
-            "email": "albert@laravel-hyperf.com",
-            "homepage": "https://albert-chen.com"
+            "email": "albert@laravel-hyperf.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/swooletw/hyperf-packages/issues",
-        "source": "https://github.com/swooletw/hyperf-packages"
+        "issues": "https://github.com/laravel-hyperf/components/issues",
+        "source": "https://github.com/laravel-hyperf/components"
     },
     "autoload": {
         "psr-4": {
-            "Swooletw\\Hyperf\\HttpClient\\": "src/"
+            "LaravelHyperf\\HttpClient\\": "src/"
         }
     },
     "require": {
@@ -32,8 +31,7 @@
         "hyperf/macroable": "~3.1.0",
         "hyperf/support": "~3.1.0",
         "guzzlehttp/guzzle": "^7.8.2",
-        "guzzlehttp/uri-template": "^1.0",
-        "swooletw/object-pool": "dev-master"
+        "guzzlehttp/uri-template": "^1.0"
     },
     "config": {
         "sort-packages": true
